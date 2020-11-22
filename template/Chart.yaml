@@ -1,0 +1,15 @@
+---
+apiVersion: v2
+appVersion: 1.16.0
+version: 0.1.0
+name: template
+description: A Helm chart for Kubernetes
+type: application
+homepage: "https://github.com/nicholaswilde/helm-charts/tree/main/charts/"
+icon: ""
+keywords:
+  - foo
+  - bar
+maintainers:
+  - name: Nicholas Wilde
+    email: ncwilde43@gmail.com
