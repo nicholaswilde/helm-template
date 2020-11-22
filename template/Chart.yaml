@@ -10,6 +10,9 @@ icon: ""
 keywords:
   - foo
   - bar
+sources:
+  - foo
+  - bar
 maintainers:
   - name: Nicholas Wilde
     email: ncwilde43@gmail.com
