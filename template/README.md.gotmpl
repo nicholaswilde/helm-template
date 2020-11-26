@@ -66,6 +66,11 @@ helm install {{ template "chart.name" . }} {{ template "helm.path" . }} -f value
 ```
 {{- end -}}
 
+{{- define "todo" -}}
+## Todo
+- [ ] Open a pull request
+{{- end -}}
+
 {{- define "author" -}}
 ## Author
 This project was started in 2020 by Nicholas Wilde.
