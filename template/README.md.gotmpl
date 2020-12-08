@@ -45,8 +45,8 @@ The command removes all the Kubernetes components associated with the chart and 
 {{- end -}}
 
 {{- define "configuration.readValues" -}}
-Read through the [values.yaml]({{ template "repository.url" . }}/blob/master/charts/{{ template "chart.name" . }}/values.yaml)
-file. It has several commented out suggested values.
+Read through the [values.yaml](./values.yaml) file. It has several commented out suggested values.
+Other values may be used from the [values.yaml](../common/values.yaml) from the [common library](../common).
 {{- end -}}
 
 {{- define "configuration.example.set" -}}
@@ -68,18 +68,19 @@ helm install {{ template "chart.name" . }} {{ template "helm.path" . }} -f value
 
 {{- define "todo" -}}
 ## Todo
-- [ ] Open a pull request
+- [ ] Incorporate Docker secret.
 {{- end -}}
 
 {{- define "author" -}}
 ## Author
-This project was started in 2020 by Nicholas Wilde.
+This project was started in 2020 by [Nicholas Wilde](https://github.com/{{ template "repository.organization" . }}).
 {{- end -}}
 
 {{ template "chart.header" . }}
-{{ template "chart.description" . }}
 
 {{ template "chart.versionBadge" . }}{{ template "chart.typeBadge" . }}{{ template "chart.appVersionBadge" . }}
+
+{{ template "chart.description" . }}
 
 {{ template "chart.requirementsSection" . }}
 
