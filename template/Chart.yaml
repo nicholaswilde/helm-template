@@ -9,7 +9,7 @@ homepage: "https://github.com/nicholaswilde/helm-charts/tree/main/charts/"
 icon: ""
 dependencies:
   - name: common
-    version: ~0.1.5
+    version: ~0.1.7
     repository: https://nicholaswilde.github.io/helm-charts/
 keywords:
   - foo
