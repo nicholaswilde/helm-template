@@ -21,6 +21,8 @@ maintainers:
   - name: Nicholas Wilde
     email: ncwilde43@gmail.com
 annotations:
+  artifacthub.io/changes: |
+    - Bumped tag to 0.1.0-ls1
   artifacthub.io/images: |
     - name: template
       image: ghcr.io/linuxserver/template:0.1.0-ls1
