@@ -5,7 +5,7 @@ version: 0.1.0
 name: template
 description: A Helm chart for Kubernetes
 type: application
-homepage: "https://github.com/nicholaswilde/helm-charts/tree/main/charts/"
+home: "https://github.com/nicholaswilde/helm-charts/tree/main/charts/"
 icon: ""
 dependencies:
   - name: common
@@ -20,3 +20,7 @@ sources:
 maintainers:
   - name: Nicholas Wilde
     email: ncwilde43@gmail.com
+annotations:
+  artifacthub.io/images: |
+    - name: template
+      image: ghcr.io/linuxserver/template:0.1.0-ls1
