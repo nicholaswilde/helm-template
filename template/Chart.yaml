@@ -1,6 +1,6 @@
 ---
 apiVersion: v2
-appVersion: 1.16.0
+appVersion: "1.16.0"
 version: 0.1.0
 name: template
 description: A Helm chart for Kubernetes
@@ -18,7 +18,7 @@ sources:
   - foo
   - https://hub.docker.com/r/linuxserver/
 maintainers:
-  - name: Nicholas Wilde
+  - name: nicholaswilde
     email: ncwilde43@gmail.com
 annotations:
   artifacthub.io/changes: |
