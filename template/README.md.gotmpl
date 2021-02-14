@@ -75,6 +75,12 @@ helm install {{ template "chart.name" . }} {{ template "helm.path" . }} -f value
 ```
 {{- end -}}
 
+{{- define "user" -}}
+|   user   | uid |
+|:--------:|:---:|
+| www-data |  33 |
+{{- end -}}
+
 {{- define "todo" -}}
 ## Todo
 - [ ] Incorporate Docker secret.
