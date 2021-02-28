@@ -23,8 +23,6 @@ service:
 
 ingress:
   enabled: true
-  annotations:
-    nginx.ingress.kubernetes.io/whitelist-source-range: 192.168.1.0/24
   hosts:
     - host: "template.192.168.1.189.nip.io"
       paths:
