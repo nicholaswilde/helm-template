@@ -1,7 +1,7 @@
 ---
 apiVersion: v2
 appVersion: "1.16.0"
-version: 0.1.0
+version: 1.0.0
 name: template
 description: A Helm chart for Kubernetes
 type: application
@@ -9,10 +9,10 @@ home: "https://github.com/nicholaswilde/helm-charts/tree/main/charts/"
 icon: ""
 dependencies:
   - name: common
-    version: ~0.1.8
+    version: ~0.1.13
     repository: https://nicholaswilde.github.io/helm-charts/
   - name: mariadb
-    version: ~1.0.3
+    version: ~1.0.4
     repository: https://nicholaswilde.github.io/helm-charts/
     condition: mariadb.enabled
   - name: postgres
