@@ -12,7 +12,7 @@ dependencies:
     version: ~0.1.13
     repository: https://nicholaswilde.github.io/helm-charts/
   - name: mariadb
-    version: ~1.0.4
+    version: ~1.0.5
     repository: https://nicholaswilde.github.io/helm-charts/
     condition: mariadb.enabled
   - name: postgres
@@ -30,7 +30,8 @@ maintainers:
     email: ncwilde43@gmail.com
 annotations:
   artifacthub.io/changes: |
-    - Initial release.
+    - kind: added
+      description: Initial release.
   artifacthub.io/images: |
     - name: template
       image: ghcr.io/linuxserver/template:0.1.0-ls1
